@@ -1,11 +1,10 @@
 [Introduction to Our Project](#Anonymous-Entries)  
 [Installation](#Installation)  
 [Usage](#Usage)  
-[API](#API)
 [Wins](#Wins)
 [Challanges](#Challanges)
 
-# Anonymous-Entries
+# Shorterning urls
 
 We used the [Free URL Shortener](https://free-url-shortener.rb.gy/) as inspiration for our project. Our application allows users to input one long url and get a short url to the same page.
 
