@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    
-<head>
-    <link rel="stylesheet" href="static/css/main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  <head>
+    <!-- <link rel="stylesheet" href="{{static/css/main.css}}"> -->
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='/static/css/main.css') }}"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
     <title>{% block title%} {% endblock%}</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div>
-        <h1 class="title">Ousama's & Luiz's URL shortener!</h1>
-        {% block content%}{% endblock%}
+      <h1 class="title">Ousama's & Luiz's URL shortener!</h1>
+      {% block content%}{% endblock%}
     </div>
- 
-   
-</body>
-
+  </body>
 </html>
