@@ -1,0 +1,44 @@
+
+body{
+background-color: #444;
+}
+
+.title{
+margin-top: 10rem;
+text-align: center;
+color:chartreuse;
+font-family:'Shadows Into Light', cursive;
+font-size: 6rem;
+}
+
+
+.main-form{
+margin-top: 5rem;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+label{
+font-family:'Shadows Into Light', cursive;
+font-size: 3rem;
+color: white;
+margin-right: 1rem;
+}
+
+.long-url{
+height: 3rem;    
+width: 40%;
+font-family:'Shadows Into Light', cursive;
+font-size: 1.5rem;
+}
+.sub-btn{
+font-family:'Shadows Into Light', cursive;
+background-color: chartreuse;
+font-size: 1.5rem;
+margin-left: 1rem;  
+height: 3.5rem;  
+width: 6rem;
+}
+
